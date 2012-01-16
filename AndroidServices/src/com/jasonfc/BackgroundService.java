@@ -52,8 +52,7 @@ public class BackgroundService extends Service
 				Thread.sleep(10000);
 				Log.i(TAG2, "... waking up");
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				Log.i(TAG2, "... sleep interrupted");
+				Log.i(TAG2, "... sleep interrupted with the counter of " + counter);
 			}
         }
     }
